@@ -2,7 +2,7 @@
 #%%
 import pandas as pd
 
-
+#%%
 def calculate_demographic_data(print_data=True):
     #%%Read data from file
     df = pd.read_csv("adult.data.csv")
@@ -40,7 +40,7 @@ def calculate_demographic_data(print_data=True):
     highest_earning_country = None
     highest_earning_country_percentage = None
 
-    # Identify the most popular occupation for those who earn >50K in India.
+    #%% Identify the most popular occupation for those who earn >50K in India.
     top_IN_occupation = None
 
     # DO NOT MODIFY BELOW THIS LINE
